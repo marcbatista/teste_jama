@@ -35,13 +35,13 @@ $(document).ready(function(){
 function apagar (del){	 	
 
 		$.ajax({
-		type:'post',		
-		dataType: 'json',	
+		type:'post',
 		url: 'delete.php',
 		data:{			
 			id: del
 		},
 		success: function(){
+			alert('usuario deletado');
 			location.reload();
 		}		
 		
