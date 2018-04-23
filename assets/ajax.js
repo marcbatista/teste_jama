@@ -8,7 +8,7 @@ $(document).ready(function(){
 		success: function(dados){
 			for(var i=0;dados.length>i;i++){
 				
-				$('#tabela').append('<tr id="'+i+'"><td>'+dados[i].id+'</td>'+'<td><img src="/img/'+dados[i].nome+'/perfil.png"></td><td><p contenteditable="true">'+dados[i].nome+'</p></td><td><p>'+dados[i].email+'</p></td><td><i onclick="update('+i+')" class="fas fa-save"></i></td><td><i  onclick="apagar('+i+')" class="far fa-trash-alt"></i></td></tr>');
+				$('#tabela').append('<tr id="'+i+'"><td>'+dados[i].id+'</td>'+'<td><img src="/img/'+dados[i].nome+'/perfil.png"></td><td><p  contenteditable="true">'+dados[i].nome+'</p></td><td>'+dados[i].email+'</td><td><i onclick="update('+i+')" class="fas fa-save"></i></td><td><i  onclick="apagar('+i+')" class="far fa-trash-alt"></i></td></tr>');
 			}
 		}
 	});
