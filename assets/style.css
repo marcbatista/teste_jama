@@ -1,0 +1,29 @@
+#tabela tr img{
+   width: 70px;
+   height: auto;
+   border-radius:50%;
+}
+table,th,td{
+    border: none;
+}
+
+table td{
+    padding: 0 30px;
+}
+
+table td i{
+    font-size: 20px;
+}
+
+table td p{
+   font-family: sans-serif; 
+   font-size: 16px;
+}
+
+table thead th{
+    font-family: sans-serif; 
+}
+
+table thead tr{
+    border-bottom: 2px solid  darkgray;
+}
